@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PhotoInterruptor)(type Legacy)(uri ${KIPRJMOD}/PhotoInterruptor.lib)(options "")(descr ""))
+)
