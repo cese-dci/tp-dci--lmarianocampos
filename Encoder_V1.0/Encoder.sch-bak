@@ -719,4 +719,16 @@ F 3 "" H 8250 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8250 4800 8250 4950
+Wire Notes Line
+	4300 5150 4200 4900
+Wire Notes Line
+	3500 4900 4200 4900
+Text Notes 3200 4850 0    50   Italic 0
+Conectores para compuertas que \nestán disponibles a usar
+Text Notes 10350 3500 0    50   Italic 0
+Conector - salidas de \nlas señales
+Wire Notes Line
+	10200 3700 10350 3500
+Wire Notes Line
+	10350 3500 10850 3500
 $EndSCHEMATC

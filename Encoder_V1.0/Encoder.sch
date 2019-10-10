@@ -16,72 +16,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L 74xx:74LS14 U1
-U 1 1 5D8D3C3B
-P 6300 2500
-F 0 "U1" H 6300 2817 50  0000 C CNN
-F 1 "74LS14" H 6300 2726 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6300 2500 50  0001 C CNN
-	1    6300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
-U 2 1 5D8D5026
-P 6350 3200
-F 0 "U1" H 6350 3517 50  0000 C CNN
-F 1 "74LS14" H 6350 3426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 3200 50  0001 C CNN
-	2    6350 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
-U 3 1 5D8D5C66
-P 6350 4050
-F 0 "U1" H 6350 4367 50  0000 C CNN
-F 1 "74LS14" H 6350 4276 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 4050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 4050 50  0001 C CNN
-	3    6350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
-U 4 1 5D8D6BDC
-P 6350 4950
-F 0 "U1" H 6350 5267 50  0000 C CNN
-F 1 "74LS14" H 6350 5176 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 4950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 4950 50  0001 C CNN
-	4    6350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
-U 5 1 5D8D895C
-P 6350 5550
-F 0 "U1" H 6350 5867 50  0000 C CNN
-F 1 "74LS14" H 6350 5776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 5550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 5550 50  0001 C CNN
-	5    6350 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
-U 6 1 5D8DA450
-P 6350 6200
-F 0 "U1" H 6350 6517 50  0000 C CNN
-F 1 "74LS14" H 6350 6426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 6200 50  0001 C CNN
-	6    6350 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS14 U1
 U 7 1 5D8DE189
 P 1600 5300
 F 0 "U1" V 1233 5300 50  0000 C CNN
@@ -405,12 +339,6 @@ $EndComp
 Wire Wire Line
 	5200 2500 6000 2500
 Wire Wire Line
-	6600 2500 7050 2500
-Wire Wire Line
-	7200 2750 6050 2750
-Wire Wire Line
-	6050 2750 6050 3200
-Wire Wire Line
 	7200 2250 7900 2250
 Wire Wire Line
 	7900 3200 7900 2250
@@ -428,8 +356,6 @@ F 3 "~" H 4450 5150 50  0001 C CNN
 	1    4450 5150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 3200 7900 3200
 $Comp
 L Device:R R6
 U 1 1 5DB15692
@@ -466,8 +392,6 @@ Connection ~ 8350 4300
 Wire Wire Line
 	8350 4300 8250 4300
 Wire Wire Line
-	6650 4050 7050 4050
-Wire Wire Line
 	7200 3800 8000 3800
 Wire Wire Line
 	8000 4950 8000 3800
@@ -488,25 +412,15 @@ $EndComp
 Wire Wire Line
 	7300 4950 8000 4950
 Wire Wire Line
-	6650 4950 6900 4950
-Wire Wire Line
 	4650 5050 5150 5050
-Wire Wire Line
-	5150 5050 5150 4050
-Wire Wire Line
-	5150 4050 6050 4050
 Wire Wire Line
 	4650 5250 5450 5250
 Wire Wire Line
 	5450 5250 5450 5550
 Wire Wire Line
-	5450 5550 6050 5550
-Wire Wire Line
 	4650 5350 5150 5350
 Wire Wire Line
 	5150 5350 5150 6200
-Wire Wire Line
-	5150 6200 6050 6200
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5DC0134A
@@ -529,13 +443,9 @@ Wire Wire Line
 	8950 3900 10000 3900
 Connection ~ 8950 3900
 Wire Wire Line
-	6650 5550 9400 5550
-Wire Wire Line
 	9400 5550 9400 4000
 Wire Wire Line
 	9400 4000 10000 4000
-Wire Wire Line
-	6650 6200 8150 6200
 Wire Wire Line
 	8150 6200 8150 5950
 Wire Wire Line
@@ -681,29 +591,10 @@ Wire Wire Line
 Connection ~ 1550 1400
 Wire Wire Line
 	1550 1400 1700 1400
-$Comp
-L Jumper:Jumper_3_Open JP1
-U 1 1 5DAD6F54
-P 6000 4450
-F 0 "JP1" V 5954 4537 50  0000 L CNN
-F 1 "Jumper_3_Open" V 6045 4537 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6000 4450 50  0001 C CNN
-F 3 "~" H 6000 4450 50  0001 C CNN
-	1    6000 4450
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7200 4300 7200 4450
 Wire Wire Line
-	7200 4450 6150 4450
-Wire Wire Line
-	6000 4700 6000 4950
-Wire Wire Line
-	6000 4950 6050 4950
-Wire Wire Line
 	4650 5150 5250 5150
-Wire Wire Line
-	5250 4200 6000 4200
 Wire Wire Line
 	5250 4200 5250 5150
 $Comp
@@ -731,4 +622,145 @@ Wire Notes Line
 	10200 3700 10350 3500
 Wire Notes Line
 	10350 3500 10850 3500
+Wire Wire Line
+	5250 4200 6000 4200
+Wire Wire Line
+	6000 4700 6000 4950
+Wire Wire Line
+	5150 5050 5150 4050
+Wire Wire Line
+	6000 4950 6050 4950
+Wire Wire Line
+	7200 4450 6150 4450
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 5DAD6F54
+P 6000 4450
+F 0 "JP1" V 5954 4537 50  0000 L CNN
+F 1 "Jumper_3_Open" V 6045 4537 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6000 4450 50  0001 C CNN
+F 3 "~" H 6000 4450 50  0001 C CNN
+	1    6000 4450
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6650 6200 8150 6200
+Wire Wire Line
+	6650 5550 9400 5550
+Wire Wire Line
+	5150 6200 6050 6200
+Wire Wire Line
+	5450 5550 6050 5550
+Wire Wire Line
+	5150 4050 6050 4050
+Wire Wire Line
+	6650 4950 6900 4950
+Wire Wire Line
+	6650 4050 7050 4050
+Wire Wire Line
+	6650 3200 7900 3200
+Wire Wire Line
+	6050 2750 6050 3200
+Wire Wire Line
+	7200 2750 6050 2750
+Wire Wire Line
+	6600 2500 7050 2500
+$Comp
+L 74xx:74LS14 U1
+U 6 1 5D8DA450
+P 6350 6200
+F 0 "U1" H 6350 6517 50  0000 C CNN
+F 1 "74LS14" H 6350 6426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 6200 50  0001 C CNN
+	6    6350 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U1
+U 5 1 5D8D895C
+P 6350 5550
+F 0 "U1" H 6350 5867 50  0000 C CNN
+F 1 "74LS14" H 6350 5776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 5550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 5550 50  0001 C CNN
+	5    6350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U1
+U 4 1 5D8D6BDC
+P 6350 4950
+F 0 "U1" H 6350 5267 50  0000 C CNN
+F 1 "74LS14" H 6350 5176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 4950 50  0001 C CNN
+	4    6350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U1
+U 3 1 5D8D5C66
+P 6350 4050
+F 0 "U1" H 6350 4367 50  0000 C CNN
+F 1 "74LS14" H 6350 4276 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 4050 50  0001 C CNN
+	3    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U1
+U 2 1 5D8D5026
+P 6350 3200
+F 0 "U1" H 6350 3517 50  0000 C CNN
+F 1 "74LS14" H 6350 3426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6350 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6350 3200 50  0001 C CNN
+	2    6350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U1
+U 1 1 5D8D3C3B
+P 6300 2500
+F 0 "U1" H 6300 2817 50  0000 C CNN
+F 1 "74LS14" H 6300 2726 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6300 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 6300 2500 50  0001 C CNN
+	1    6300 2500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5250 1650 5300 1550
+Wire Notes Line
+	5300 1550 5650 1550
+Text Notes 5300 1500 0    50   ~ 0
+Filtro pasa bajo, Atenua el ruido \ndel photoInterruptor.
+Text Notes 6250 1850 0    50   ~ 0
+74ls14 - también está para atenuar ruidos.\n
+Wire Notes Line
+	6350 2100 6500 1900
+Wire Notes Line
+	6500 1900 7200 1900
+Text Notes 8000 800  0    50   ~ 0
+Los jumper están para seleccionar los puntos de salidas de las señales .\n
+Wire Notes Line
+	7950 650  10900 650 
+Wire Notes Line
+	10900 650  10900 900 
+Wire Notes Line
+	10900 900  7950 900 
+Wire Notes Line
+	7950 900  7950 650 
+Text Notes 8750 1400 0    50   ~ 0
+Hay compuertas del integrado que sobre,\nlas cuales quedarán disponibles para el \nusuario mediante conectores.\n
+Wire Notes Line
+	8650 1100 10450 1100
+Wire Notes Line
+	10450 1100 10450 1450
+Wire Notes Line
+	10450 1450 8650 1450
+Wire Notes Line
+	8650 1450 8650 1100
 $EndSCHEMATC
