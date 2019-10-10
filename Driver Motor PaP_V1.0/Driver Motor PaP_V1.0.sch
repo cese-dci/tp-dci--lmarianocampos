@@ -904,4 +904,10 @@ Wire Notes Line
 	2500 5700 3350 5700
 Text Notes 2500 5650 0    50   ~ 0
 Alimentación de los amplificadores \noperacionales - LM358
+Wire Notes Line
+	5700 1050 5900 800 
+Wire Notes Line
+	5900 800  6800 800 
+Text Notes 5900 750  0    50   ~ 0
+Estos AO cumplen la función de separar  etapa logica con la de potencia.\n
 $EndSCHEMATC
