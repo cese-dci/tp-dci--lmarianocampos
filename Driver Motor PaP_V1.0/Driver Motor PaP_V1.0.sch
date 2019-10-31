@@ -22,7 +22,9 @@ F 0 "A1" H 8500 3881 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825" H 8500 3790 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 8700 2300 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 8600 2800 50  0001 C CNN
-F 4 "2133 - Pololu Robotics Electronics" H 8500 3100 50  0001 C CNN "N° Catalogo"
+F 4 "Pololu Corporation" H 8500 3100 50  0001 C CNN "Fabricante"
+F 5 "2133" H 8500 3100 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "2183-2133-ND" H 8500 3100 50  0001 C CNN "digi-key #"
 	1    8500 3100
 	1    0    0    -1  
 $EndComp
@@ -33,7 +35,10 @@ P 9600 3300
 F 0 "J7" H 9680 3292 50  0000 L CNN
 F 1 "Conn_01x02" H 9680 3201 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3300 50  0001 C CNN
-F 3 "~" H 9600 3300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 9600 3300 50  0001 C CNN
+F 4 "	Molex" H 9600 3300 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 9600 3300 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 9600 3300 50  0001 C CNN "digi-key #"
 	1    9600 3300
 	1    0    0    -1  
 $EndComp
@@ -68,6 +73,9 @@ F 1 "LM358" H 5400 1676 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5400 1400 50  0001 C CNN
 F 4 "511-LM358D" H 5400 1400 50  0001 C CNN "Código Catalogo"
+F 5 "STMicroelectronics" H 5400 1400 50  0001 C CNN "Fabricante"
+F 6 "LM358DT" H 5400 1400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 7 "497-1591-2-ND" H 5400 1400 50  0001 C CNN "digi-key #"
 	1    5400 1400
 	1    0    0    -1  
 $EndComp
@@ -79,7 +87,9 @@ F 0 "U2" H 5400 4317 50  0000 C CNN
 F 1 "LM358" H 5400 4226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5400 3950 50  0001 C CNN
-F 4 "511-LM358D" H 5400 3950 50  0001 C CNN "N° Catalogo"
+F 4 "STMicroelectronics" H 5400 3950 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 5400 3950 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 5400 3950 50  0001 C CNN "digi-key #"
 	2    5400 3950
 	1    0    0    -1  
 $EndComp
@@ -91,6 +101,9 @@ F 0 "U1" H 1158 6746 50  0000 L CNN
 F 1 "LM358" H 1158 6655 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1200 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1200 6700 50  0001 C CNN
+F 4 "STMicroelectronics" H 1200 6700 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 1200 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 1200 6700 50  0001 C CNN "digi-key #"
 	3    1200 6700
 	1    0    0    -1  
 $EndComp
@@ -102,6 +115,9 @@ F 0 "U2" H 5450 3317 50  0000 C CNN
 F 1 "LM358" H 5450 3226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 2950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 2950 50  0001 C CNN
+F 4 "STMicroelectronics" H 5450 2950 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 5450 2950 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 5450 2950 50  0001 C CNN "digi-key #"
 	1    5450 2950
 	1    0    0    -1  
 $EndComp
@@ -113,6 +129,9 @@ F 0 "U1" H 5450 2567 50  0000 C CNN
 F 1 "LM358" H 5450 2476 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 2200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 2200 50  0001 C CNN
+F 4 "STMicroelectronics" H 5450 2200 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 5450 2200 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 5450 2200 50  0001 C CNN "digi-key #"
 	2    5450 2200
 	1    0    0    -1  
 $EndComp
@@ -124,6 +143,9 @@ F 0 "U3" H 3008 6746 50  0000 L CNN
 F 1 "LM358" H 3008 6655 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3050 6700 50  0001 C CNN
+F 4 "STMicroelectronics" H 3050 6700 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 3050 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 3050 6700 50  0001 C CNN "digi-key #"
 	3    3050 6700
 	1    0    0    -1  
 $EndComp
@@ -135,6 +157,9 @@ F 0 "U3" H 5450 5217 50  0000 C CNN
 F 1 "LM358" H 5450 5126 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 4850 50  0001 C CNN
+F 4 "STMicroelectronics" H 5450 4850 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 5450 4850 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 5450 4850 50  0001 C CNN "digi-key #"
 	1    5450 4850
 	1    0    0    -1  
 $EndComp
@@ -146,7 +171,9 @@ F 0 "U3" H 5450 6217 50  0000 C CNN
 F 1 "LM358" H 5450 6126 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 5850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 5850 50  0001 C CNN
-F 4 "511-LM358D" H 5450 5850 50  0001 C CNN "N° Catalogo"
+F 4 "STMicroelectronics" H 5450 5850 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 5450 5850 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 5450 5850 50  0001 C CNN "digi-key #"
 	2    5450 5850
 	1    0    0    -1  
 $EndComp
@@ -202,6 +229,9 @@ F 0 "U2" H 2058 6746 50  0000 L CNN
 F 1 "LM358" H 2058 6655 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 6700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2100 6700 50  0001 C CNN
+F 4 "STMicroelectronics" H 2100 6700 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 2100 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 2100 6700 50  0001 C CNN "digi-key #"
 	3    2100 6700
 	1    0    0    -1  
 $EndComp
@@ -285,7 +315,10 @@ P 6850 2600
 F 0 "JP1" H 6850 2835 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 2744 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 2600 50  0001 C CNN
-F 3 "~" H 6850 2600 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 2600 50  0001 C CNN
+F 4 "	Molex" H 6850 2600 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 2600 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 2600 50  0001 C CNN "digi-key #"
 	1    6850 2600
 	1    0    0    -1  
 $EndComp
@@ -296,7 +329,10 @@ P 6850 3050
 F 0 "JP2" H 6850 3285 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 3194 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 3050 50  0001 C CNN
-F 3 "~" H 6850 3050 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 3050 50  0001 C CNN
+F 4 "	Molex" H 6850 3050 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 3050 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 3050 50  0001 C CNN "digi-key #"
 	1    6850 3050
 	1    0    0    -1  
 $EndComp
@@ -307,7 +343,10 @@ P 6850 3500
 F 0 "JP3" H 6850 3735 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 3644 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 3500 50  0001 C CNN
-F 3 "~" H 6850 3500 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 3500 50  0001 C CNN
+F 4 "	Molex" H 6850 3500 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 3500 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 3500 50  0001 C CNN "digi-key #"
 	1    6850 3500
 	1    0    0    -1  
 $EndComp
@@ -318,7 +357,10 @@ P 6850 4100
 F 0 "JP4" H 6850 4335 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 4244 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 4100 50  0001 C CNN
-F 3 "~" H 6850 4100 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 4100 50  0001 C CNN
+F 4 "	Molex" H 6850 4100 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 4100 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 4100 50  0001 C CNN "digi-key #"
 	1    6850 4100
 	1    0    0    -1  
 $EndComp
@@ -329,7 +371,10 @@ P 6850 4450
 F 0 "JP5" H 6850 4685 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 4594 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 4450 50  0001 C CNN
-F 3 "~" H 6850 4450 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 4450 50  0001 C CNN
+F 4 "	Molex" H 6850 4450 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 4450 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 4450 50  0001 C CNN "digi-key #"
 	1    6850 4450
 	1    0    0    -1  
 $EndComp
@@ -340,7 +385,10 @@ P 6850 4800
 F 0 "JP6" H 6850 5035 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 4944 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 4800 50  0001 C CNN
-F 3 "~" H 6850 4800 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 4800 50  0001 C CNN
+F 4 "	Molex" H 6850 4800 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 4800 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 4800 50  0001 C CNN "digi-key #"
 	1    6850 4800
 	1    0    0    -1  
 $EndComp
@@ -516,7 +564,10 @@ P 6850 5350
 F 0 "JP7" H 6850 5585 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 5494 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 5350 50  0001 C CNN
-F 3 "~" H 6850 5350 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 5350 50  0001 C CNN
+F 4 "	Molex" H 6850 5350 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 5350 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 5350 50  0001 C CNN "digi-key #"
 	1    6850 5350
 	1    0    0    -1  
 $EndComp
@@ -527,7 +578,10 @@ P 6850 5700
 F 0 "JP8" H 6850 5935 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 5844 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 5700 50  0001 C CNN
-F 3 "~" H 6850 5700 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 5700 50  0001 C CNN
+F 4 "	Molex" H 6850 5700 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 5700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 5700 50  0001 C CNN "digi-key #"
 	1    6850 5700
 	1    0    0    -1  
 $EndComp
@@ -538,7 +592,10 @@ P 6850 6050
 F 0 "JP9" H 6850 6285 50  0000 C CNN
 F 1 "Jumper_2_Open" H 6850 6194 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 6050 50  0001 C CNN
-F 3 "~" H 6850 6050 50  0001 C CNN
+F 3 "~https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 6850 6050 50  0001 C CNN
+F 4 "	Molex" H 6850 6050 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 6850 6050 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 6850 6050 50  0001 C CNN "digi-key #"
 	1    6850 6050
 	1    0    0    -1  
 $EndComp
@@ -584,6 +641,9 @@ F 0 "J5" H 6180 6542 50  0000 L CNN
 F 1 "Conn_01x01" H 6180 6451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 6100 6500 50  0001 C CNN
 F 3 "~" H 6100 6500 50  0001 C CNN
+F 4 "	Molex" H 6100 6500 50  0001 C CNN "Fabricante"
+F 5 "0022284010" H 6100 6500 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "	WM50014-01-ND" H 6100 6500 50  0001 C CNN "digi-key #"
 	1    6100 6500
 	1    0    0    -1  
 $EndComp
@@ -643,7 +703,10 @@ P 9600 3000
 F 0 "J6" H 9680 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 9680 2901 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3000 50  0001 C CNN
-F 3 "~" H 9600 3000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/ps/PS-99020-0001-001.pdf" H 9600 3000 50  0001 C CNN
+F 4 "	Molex" H 9600 3000 50  0001 C CNN "Fabricante"
+F 5 "0901200122" H 9600 3000 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM8072-ND" H 9600 3000 50  0001 C CNN "digi-key #"
 	1    9600 3000
 	1    0    0    -1  
 $EndComp
@@ -795,7 +858,10 @@ P 1350 1300
 F 0 "J2" H 1268 1517 50  0000 C CNN
 F 1 "Conn_01x02" H 1268 1426 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1350 1300 50  0001 C CNN
-F 3 "~" H 1350 1300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English" H 1350 1300 50  0001 C CNN
+F 4 "	TE Connectivity AMP Connectors" H 1350 1300 50  0001 C CNN "Fabricante"
+F 5 "282837-2" H 1350 1300 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "A113320-ND" H 1350 1300 50  0001 C CNN "digi-key #"
 	1    1350 1300
 	-1   0    0    -1  
 $EndComp
@@ -816,7 +882,10 @@ P 1700 3000
 F 0 "J1" H 1618 3217 50  0000 C CNN
 F 1 "Conn_01x02" H 1618 3126 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1700 3000 50  0001 C CNN
-F 3 "~" H 1700 3000 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English" H 1700 3000 50  0001 C CNN
+F 4 "	TE Connectivity AMP Connectors" H 1700 3000 50  0001 C CNN "Fabricante"
+F 5 "282837-2" H 1700 3000 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "A113320-ND" H 1700 3000 50  0001 C CNN "digi-key #"
 	1    1700 3000
 	-1   0    0    -1  
 $EndComp
@@ -947,6 +1016,9 @@ F 0 "C2" H 815 6746 50  0000 L CNN
 F 1 "100nF" H 815 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 738 6550 50  0001 C CNN
 F 3 "~" H 700 6700 50  0001 C CNN
+F 4 "Murata Electronics" H 700 6700 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 700 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 700 6700 50  0001 C CNN "digi-key #"
 	1    700  6700
 	1    0    0    -1  
 $EndComp
@@ -958,6 +1030,9 @@ F 0 "C3" H 1715 6746 50  0000 L CNN
 F 1 "100nF" H 1715 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1638 6550 50  0001 C CNN
 F 3 "~" H 1600 6700 50  0001 C CNN
+F 4 "Murata Electronics" H 1600 6700 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 1600 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 1600 6700 50  0001 C CNN "digi-key #"
 	1    1600 6700
 	1    0    0    -1  
 $EndComp
@@ -969,6 +1044,9 @@ F 0 "C4" H 2665 6746 50  0000 L CNN
 F 1 "100nF" H 2665 6655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 6550 50  0001 C CNN
 F 3 "~" H 2550 6700 50  0001 C CNN
+F 4 "Murata Electronics" H 2550 6700 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 2550 6700 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 2550 6700 50  0001 C CNN "digi-key #"
 	1    2550 6700
 	1    0    0    -1  
 $EndComp
@@ -1026,6 +1104,9 @@ F 0 "C1" H 9491 2546 50  0000 L CNN
 F 1 "100 uF" H 9491 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 9400 2500 50  0001 C CNN
 F 3 "~" H 9400 2500 50  0001 C CNN
+F 4 "Nichicon" H 9400 2500 50  0001 C CNN "Fabricante"
+F 5 "UWT1H101MNL1GS" H 9400 2500 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "493-226-1-ND" H 9400 2500 50  0001 C CNN "digi-key #"
 	1    9400 2500
 	1    0    0    -1  
 $EndComp
@@ -1036,7 +1117,10 @@ P 4150 5050
 F 0 "J4" H 4068 5467 50  0000 C CNN
 F 1 "Conn_01x05" H 4068 5376 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 4150 5050 50  0001 C CNN
-F 3 "~" H 4150 5050 50  0001 C CNN
+F 3 "https://www.digikey.com/es/datasheets/molexllc/molex-llcps990200088" H 4150 5050 50  0001 C CNN
+F 4 "	Molex" H 4150 5050 50  0001 C CNN "Fabricante"
+F 5 "0022272051" H 4150 5050 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM4114-ND" H 4150 5050 50  0001 C CNN "digi-key #"
 	1    4150 5050
 	-1   0    0    -1  
 $EndComp
@@ -1048,6 +1132,9 @@ F 0 "J3" H 4068 2217 50  0000 C CNN
 F 1 "Conn_01x03" H 4068 2126 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4150 1900 50  0001 C CNN
 F 3 "~" H 4150 1900 50  0001 C CNN
+F 4 "	Molex" H 4150 1900 50  0001 C CNN "Fabricante"
+F 5 "0022272031" H 4150 1900 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "WM411-ND" H 4150 1900 50  0001 C CNN "digi-key #"
 	1    4150 1900
 	-1   0    0    -1  
 $EndComp

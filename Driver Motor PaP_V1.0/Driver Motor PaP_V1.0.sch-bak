@@ -22,6 +22,7 @@ F 0 "A1" H 8500 3881 50  0000 C CNN
 F 1 "Pololu_Breakout_DRV8825" H 8500 3790 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 8700 2300 50  0001 L CNN
 F 3 "https://www.pololu.com/product/2982" H 8600 2800 50  0001 C CNN
+F 4 "2133 - Pololu Robotics Electronics" H 8500 3100 50  0001 C CNN "N° Catalogo"
 	1    8500 3100
 	1    0    0    -1  
 $EndComp
@@ -66,6 +67,7 @@ F 0 "U1" H 5400 1767 50  0000 C CNN
 F 1 "LM358" H 5400 1676 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5400 1400 50  0001 C CNN
+F 4 "511-LM358D" H 5400 1400 50  0001 C CNN "Código Catalogo"
 	1    5400 1400
 	1    0    0    -1  
 $EndComp
@@ -77,6 +79,7 @@ F 0 "U2" H 5400 4317 50  0000 C CNN
 F 1 "LM358" H 5400 4226 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 3950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5400 3950 50  0001 C CNN
+F 4 "511-LM358D" H 5400 3950 50  0001 C CNN "N° Catalogo"
 	2    5400 3950
 	1    0    0    -1  
 $EndComp
@@ -143,6 +146,7 @@ F 0 "U3" H 5450 6217 50  0000 C CNN
 F 1 "LM358" H 5450 6126 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 5850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5450 5850 50  0001 C CNN
+F 4 "511-LM358D" H 5450 5850 50  0001 C CNN "N° Catalogo"
 	2    5450 5850
 	1    0    0    -1  
 $EndComp
