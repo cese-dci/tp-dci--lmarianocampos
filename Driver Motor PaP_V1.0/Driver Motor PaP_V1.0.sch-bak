@@ -1096,15 +1096,4 @@ F 3 "~" H 9700 6200 50  0001 C CNN
 	1    9700 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:Fiducial FID2
-U 1 1 5DB7B8D5
-P 10450 6200
-F 0 "FID2" H 10535 6246 50  0000 L CNN
-F 1 "Fiducial" H 10535 6155 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10450 6200 50  0001 C CNN
-F 3 "~" H 10450 6200 50  0001 C CNN
-	1    10450 6200
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

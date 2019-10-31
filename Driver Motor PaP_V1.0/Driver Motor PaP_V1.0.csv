@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"H2,H1,H3,H4";"MountingHole_3.2mm_M3";4;"MountingHole";;;
+2;"J6,J7";"PinHeader_1x02_P2.54mm_Vertical";2;"Conn_01x02";;;
+3;"J2,J1";"TerminalBlock_bornier-2_P5.08mm";2;"Conn_01x02";;;
+4;"C1";"CP_Elec_6.3x5.4";1;"100 uF";;;
+5;"A1";"Pololu_Breakout-16_15.2x20.3mm";1;"Pololu_Breakout_DRV8825";;;
+6;"U3,U2,U1";"SOIC-8_3.9x4.9mm_P1.27mm";3;"LM358";;;
+7;"FID1";"Fiducial_1mm_Mask2mm";1;"Fiducial";;;
+8;"C4,C2,C3";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"100nF";;;
+9;"J5";"PinHeader_1x01_P2.54mm_Vertical";1;"Conn_01x01";;;
+10;"JP1,JP2,JP3,JP4,JP5,JP6,JP7,JP8,JP9";"PinHeader_1x02_P2.54mm_Vertical";9;"Jumper_2_Open";;;
+11;"J3";"Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+12;"J4";"Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical";1;"Conn_01x05";;;
+13;"D1";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"LED_PWR";;;
+14;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"220";;;
