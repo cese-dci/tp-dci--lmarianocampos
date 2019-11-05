@@ -96,15 +96,15 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM358 U1
 U 3 1 5DECFEB2
-P 1200 6700
-F 0 "U1" H 1158 6746 50  0000 L CNN
-F 1 "LM358" H 1158 6655 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1200 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1200 6700 50  0001 C CNN
-F 4 "STMicroelectronics" H 1200 6700 50  0001 C CNN "Fabricante"
-F 5 "LM358DT" H 1200 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "497-1591-2-ND" H 1200 6700 50  0001 C CNN "digi-key #"
-	3    1200 6700
+P 1300 6400
+F 0 "U1" H 1258 6446 50  0000 L CNN
+F 1 "LM358" H 1258 6355 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1300 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 1300 6400 50  0001 C CNN
+F 4 "STMicroelectronics" H 1300 6400 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 1300 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 1300 6400 50  0001 C CNN "digi-key #"
+	3    1300 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -138,15 +138,15 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM358 U3
 U 3 1 5DEDA85E
-P 3050 6700
-F 0 "U3" H 3008 6746 50  0000 L CNN
-F 1 "LM358" H 3008 6655 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3050 6700 50  0001 C CNN
-F 4 "STMicroelectronics" H 3050 6700 50  0001 C CNN "Fabricante"
-F 5 "LM358DT" H 3050 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "497-1591-2-ND" H 3050 6700 50  0001 C CNN "digi-key #"
-	3    3050 6700
+P 3150 6400
+F 0 "U3" H 3108 6446 50  0000 L CNN
+F 1 "LM358" H 3108 6355 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3150 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 3150 6400 50  0001 C CNN
+F 4 "STMicroelectronics" H 3150 6400 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 3150 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 3150 6400 50  0001 C CNN "digi-key #"
+	3    3150 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -224,15 +224,15 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM358 U2
 U 3 1 5DF5EE48
-P 2100 6700
-F 0 "U2" H 2058 6746 50  0000 L CNN
-F 1 "LM358" H 2058 6655 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 6700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2100 6700 50  0001 C CNN
-F 4 "STMicroelectronics" H 2100 6700 50  0001 C CNN "Fabricante"
-F 5 "LM358DT" H 2100 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "497-1591-2-ND" H 2100 6700 50  0001 C CNN "digi-key #"
-	3    2100 6700
+P 2200 6400
+F 0 "U2" H 2158 6446 50  0000 L CNN
+F 1 "LM358" H 2158 6355 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2200 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 2200 6400 50  0001 C CNN
+F 4 "STMicroelectronics" H 2200 6400 50  0001 C CNN "Fabricante"
+F 5 "LM358DT" H 2200 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "497-1591-2-ND" H 2200 6400 50  0001 C CNN "digi-key #"
+	3    2200 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -296,18 +296,18 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR03
 U 1 1 5DFD910C
-P 2000 6200
-F 0 "#PWR03" H 2000 6050 50  0001 C CNN
-F 1 "VCC" H 2017 6373 50  0000 C CNN
-F 2 "" H 2000 6200 50  0001 C CNN
-F 3 "" H 2000 6200 50  0001 C CNN
-	1    2000 6200
+P 2100 5900
+F 0 "#PWR03" H 2100 5750 50  0001 C CNN
+F 1 "VCC" H 2117 6073 50  0000 C CNN
+F 2 "" H 2100 5900 50  0001 C CNN
+F 3 "" H 2100 5900 50  0001 C CNN
+	1    2100 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6200 2000 6400
+	2100 5900 2100 6100
 Wire Wire Line
-	2000 7000 2000 7100
+	2100 6700 2100 6800
 $Comp
 L Jumper:Jumper_2_Open JP1
 U 1 1 5E02C90A
@@ -889,23 +889,23 @@ F 6 "A113320-ND" H 1700 3000 50  0001 C CNN "digi-key #"
 	1    1700 3000
 	-1   0    0    -1  
 $EndComp
-Text Notes 650  5950 0    50   ~ 0
+Text Notes 750  5650 0    50   ~ 0
 Alimentación de los amplificadores \noperacionales - LM358
 $Comp
 L power:GND #PWR04
 U 1 1 5DFD9BBD
-P 2000 7300
-F 0 "#PWR04" H 2000 7050 50  0001 C CNN
-F 1 "GND" H 2005 7127 50  0000 C CNN
-F 2 "" H 2000 7300 50  0001 C CNN
-F 3 "" H 2000 7300 50  0001 C CNN
-	1    2000 7300
+P 2100 7000
+F 0 "#PWR04" H 2100 6750 50  0001 C CNN
+F 1 "GND" H 2105 6827 50  0000 C CNN
+F 2 "" H 2100 7000 50  0001 C CNN
+F 3 "" H 2100 7000 50  0001 C CNN
+	1    2100 7000
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1750 6300 1550 5950
+	1850 6000 1650 5650
 Wire Notes Line
-	1550 5950 700  5950
+	1650 5650 800  5650
 Wire Notes Line
 	1650 2750 1550 2550
 Wire Notes Line
@@ -1011,91 +1011,91 @@ este conector permite hacer uso del amplificador \npara fururo en caso de ser ne
 $Comp
 L Device:C C2
 U 1 1 5DB37833
-P 700 6700
-F 0 "C2" H 815 6746 50  0000 L CNN
-F 1 "100nF" H 815 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 738 6550 50  0001 C CNN
-F 3 "~" H 700 6700 50  0001 C CNN
-F 4 "Murata Electronics" H 700 6700 50  0001 C CNN "Fabricante"
-F 5 "GRM31CD80J107ME39K" H 700 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "490-16313-2-ND" H 700 6700 50  0001 C CNN "digi-key #"
-	1    700  6700
+P 800 6400
+F 0 "C2" H 915 6446 50  0000 L CNN
+F 1 "100nF" H 915 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 838 6250 50  0001 C CNN
+F 3 "~" H 800 6400 50  0001 C CNN
+F 4 "Murata Electronics" H 800 6400 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 800 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 800 6400 50  0001 C CNN "digi-key #"
+	1    800  6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5DB3824B
-P 1600 6700
-F 0 "C3" H 1715 6746 50  0000 L CNN
-F 1 "100nF" H 1715 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1638 6550 50  0001 C CNN
-F 3 "~" H 1600 6700 50  0001 C CNN
-F 4 "Murata Electronics" H 1600 6700 50  0001 C CNN "Fabricante"
-F 5 "GRM31CD80J107ME39K" H 1600 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "490-16313-2-ND" H 1600 6700 50  0001 C CNN "digi-key #"
-	1    1600 6700
+P 1700 6400
+F 0 "C3" H 1815 6446 50  0000 L CNN
+F 1 "100nF" H 1815 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 6250 50  0001 C CNN
+F 3 "~" H 1700 6400 50  0001 C CNN
+F 4 "Murata Electronics" H 1700 6400 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 1700 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 1700 6400 50  0001 C CNN "digi-key #"
+	1    1700 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 5DB3899B
-P 2550 6700
-F 0 "C4" H 2665 6746 50  0000 L CNN
-F 1 "100nF" H 2665 6655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 6550 50  0001 C CNN
-F 3 "~" H 2550 6700 50  0001 C CNN
-F 4 "Murata Electronics" H 2550 6700 50  0001 C CNN "Fabricante"
-F 5 "GRM31CD80J107ME39K" H 2550 6700 50  0001 C CNN "N° de Pieza del Fabricante"
-F 6 "490-16313-2-ND" H 2550 6700 50  0001 C CNN "digi-key #"
-	1    2550 6700
+P 2650 6400
+F 0 "C4" H 2765 6446 50  0000 L CNN
+F 1 "100nF" H 2765 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 6250 50  0001 C CNN
+F 3 "~" H 2650 6400 50  0001 C CNN
+F 4 "Murata Electronics" H 2650 6400 50  0001 C CNN "Fabricante"
+F 5 "GRM31CD80J107ME39K" H 2650 6400 50  0001 C CNN "N° de Pieza del Fabricante"
+F 6 "490-16313-2-ND" H 2650 6400 50  0001 C CNN "digi-key #"
+	1    2650 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 6400 2550 6400
-Connection ~ 2000 6400
+	3050 6100 2650 6100
+Connection ~ 2100 6100
 Wire Wire Line
-	2550 6550 2550 6400
-Connection ~ 2550 6400
+	2650 6250 2650 6100
+Connection ~ 2650 6100
 Wire Wire Line
-	2550 6400 2000 6400
+	2650 6100 2100 6100
 Wire Wire Line
-	1600 6550 1600 6400
+	1700 6250 1700 6100
 Wire Wire Line
-	1600 6400 2000 6400
+	1700 6100 2100 6100
 Wire Wire Line
-	1100 6400 1600 6400
-Connection ~ 1600 6400
+	1200 6100 1700 6100
+Connection ~ 1700 6100
 Wire Wire Line
-	700  6550 700  6400
+	800  6250 800  6100
 Wire Wire Line
-	700  6400 1100 6400
-Connection ~ 1100 6400
+	800  6100 1200 6100
+Connection ~ 1200 6100
 Wire Wire Line
-	700  6850 700  7100
+	800  6550 800  6800
 Wire Wire Line
-	700  7100 1100 7100
-Connection ~ 2000 7100
+	800  6800 1200 6800
+Connection ~ 2100 6800
 Wire Wire Line
-	2000 7100 2000 7300
+	2100 6800 2100 7000
 Wire Wire Line
-	1100 7000 1100 7100
-Connection ~ 1100 7100
+	1200 6700 1200 6800
+Connection ~ 1200 6800
 Wire Wire Line
-	1100 7100 1600 7100
+	1200 6800 1700 6800
 Wire Wire Line
-	1600 6850 1600 7100
-Connection ~ 1600 7100
+	1700 6550 1700 6800
+Connection ~ 1700 6800
 Wire Wire Line
-	1600 7100 2000 7100
+	1700 6800 2100 6800
 Wire Wire Line
-	2550 6850 2550 7100
+	2650 6550 2650 6800
 Wire Wire Line
-	2550 7100 2000 7100
+	2650 6800 2100 6800
 Wire Wire Line
-	2950 7000 2950 7100
+	3050 6700 3050 6800
 Wire Wire Line
-	2950 7100 2550 7100
-Connection ~ 2550 7100
+	3050 6800 2650 6800
+Connection ~ 2650 6800
 $Comp
 L Device:CP1_Small C1
 U 1 1 5DEC956F
@@ -1179,12 +1179,40 @@ Wire Wire Line
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5DB77960
-P 9700 6200
-F 0 "FID1" H 9785 6246 50  0000 L CNN
-F 1 "Fiducial" H 9785 6155 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9700 6200 50  0001 C CNN
-F 3 "~" H 9700 6200 50  0001 C CNN
-	1    9700 6200
+P 9700 6150
+F 0 "FID1" H 9785 6196 50  0000 L CNN
+F 1 "Fiducial" H 9785 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9700 6150 50  0001 C CNN
+F 3 "~" H 9700 6150 50  0001 C CNN
+	1    9700 6150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5DC3D0C7
+P 10450 6150
+F 0 "FID3" H 10535 6196 50  0000 L CNN
+F 1 "Fiducial" H 10535 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10450 6150 50  0001 C CNN
+F 3 "~" H 10450 6150 50  0001 C CNN
+	1    10450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5DC3DB48
+P 9700 6400
+F 0 "FID2" H 9785 6446 50  0000 L CNN
+F 1 "Fiducial" H 9785 6355 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 9700 6400 50  0001 C CNN
+F 3 "~" H 9700 6400 50  0001 C CNN
+	1    9700 6400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1800 6950 1700 7200
+Wire Notes Line
+	1700 7200 900  7200
+Text Notes 850  7400 0    50   ~ 0
+C2,C3 y C4 son capacitores de desacople \ncorrespondiente a cada integrado LM358.
 $EndSCHEMATC
