@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 40)
+    (drawings 39)
     (tracks 197)
     (zones 0)
     (modules 33)
@@ -21,8 +21,8 @@
 
   (layers
     (0 1-F.Cu signal)
-    (1 2-In1.Cu.GND power)
-    (2 3-In2.Cu.VCC power)
+    (1 2-In1.Cu.GND power hide)
+    (2 3-In2.Cu.VCC power hide)
     (31 4-B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -215,7 +215,7 @@
     (tags "mounting hole 3.2mm no annular m3")
     (path /5DF5A9A6)
     (attr virtual)
-    (fp_text reference H2 (at -4.75 0.45 90) (layer F.SilkS)
+    (fp_text reference H2 (at -3.75 2.75 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole (at 0 4.2) (layer F.Fab) hide
@@ -1533,9 +1533,6 @@
   (gr_text "Diseño Argentino" (at 126.75 125.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text . (at 160.25 123.25) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_text Vcc (at 109.25 100.9 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -1554,7 +1551,7 @@
   (gr_text + (at 108.7 94.7 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Mínimos (10 Mils Mayer )\nGrillas:  0,25 mm.\nvías : 2mm ,agujeros 0,9 mm.\nMargen  General: 0,5 mm.\nAncho de pista : 0,5 mm y 1,2 mm.\nDistancia a borde: 0,5 mm.\nPCB espesor: 1,6mm.\nTerminación HASL. \nSe utilizo 4 capas a modo de ejercicio." (at 194.5 101.25) (layer Dwgs.User)
+  (gr_text "Mínimos (10 Mils Mayer )\nGrillas:  0,25 mm.\nvías : 2mm ,agujeros 0,9 mm.\nMargen  General: 0,5 mm.\nAncho de pista : 0,5 mm y 1,2 mm.\nDistancia a borde: 0,5 mm.\nPCB espesor: 1,6mm.\nTerminación HASL. \nSe utilizo 4 capas a modo de ejercicio ya que pudo ser resulto \nen simple faz." (at 194.5 101.25) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (dimension 50 (width 0.15) (layer Dwgs.User)
