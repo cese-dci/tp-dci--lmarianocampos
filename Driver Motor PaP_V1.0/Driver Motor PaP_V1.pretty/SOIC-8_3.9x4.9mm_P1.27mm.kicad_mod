@@ -2,7 +2,7 @@
   (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOIC SO")
   (attr smd)
-  (fp_text reference U1 (at 0 -3.4 -90) (layer F.SilkS)
+  (fp_text reference U1 (at 0 3.75 -90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value LM358 (at 0 3.4) (layer F.Fab)

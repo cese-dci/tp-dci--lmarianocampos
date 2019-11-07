@@ -857,7 +857,7 @@ U 1 1 5DFC707D
 P 1350 1300
 F 0 "J2" H 1268 1517 50  0000 C CNN
 F 1 "Conn_01x02" H 1268 1426 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1350 1300 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1350 1300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English" H 1350 1300 50  0001 C CNN
 F 4 "	TE Connectivity AMP Connectors" H 1350 1300 50  0001 C CNN "Fabricante"
 F 5 "282837-2" H 1350 1300 50  0001 C CNN "N° de Pieza del Fabricante"
@@ -881,7 +881,7 @@ U 1 1 5DECA8E4
 P 1700 3000
 F 0 "J1" H 1618 3217 50  0000 C CNN
 F 1 "Conn_01x02" H 1618 3126 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1700 3000 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1700 3000 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English" H 1700 3000 50  0001 C CNN
 F 4 "	TE Connectivity AMP Connectors" H 1700 3000 50  0001 C CNN "Fabricante"
 F 5 "282837-2" H 1700 3000 50  0001 C CNN "N° de Pieza del Fabricante"
